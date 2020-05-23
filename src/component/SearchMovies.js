@@ -40,7 +40,7 @@ export default function SearchMovies()
 
                 <label htmlFor="query" className="label">Search</label>
 
-                <input type="text" className="input" name="query" placeholder="query" value={query} onChange={(e) => setQuery(e.target.value)}></input>
+                <input type="text" className="input" name="query" placeholder="e.g American Dad" value={query} onChange={(e) => setQuery(e.target.value)}></input>
 
                 <button className="button" type="submit">Submit</button>
 
